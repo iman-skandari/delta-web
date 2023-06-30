@@ -1,0 +1,37 @@
+.titleBtnWrapper {
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  width: 320px;
+  min-height: 65px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.titleBtnWrapper:hover{
+    background-color: rgba(222, 221, 221, 0.827);
+}
+.titleBtnImg {
+  width: 55px;
+  height: 55px;
+  background: #eee;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+}
+.titleBtnImg img {
+  width: 35px;
+  border-radius: 7px;
+}
+.titleBtnDeck h3 {
+  color: rgb(147, 10, 10);
+}
+.titleBtnDeck p {
+  margin-top: 0.3rem;
+  font-size: 16px;
+}
