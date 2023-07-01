@@ -1,0 +1,58 @@
+.navbarUpRight img{
+    height: 35px;
+    width: 65px;
+    cursor: pointer;
+    
+}
+.navbarUpLeft1{
+    border: 2px solid #e3e3e3;
+    width: 85px;
+    height: 37px;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5rem;
+
+}
+.navbarUpLeft1 img{
+    width: 10px;
+}
+.navbarUpLeft2{
+    border: 2px solid #e3e3e3;
+    border-radius: 1rem;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 370px;
+    gap: 16px;
+}
+.navbarUpLeftTitle{
+    color: red;
+}
+.navbarUpLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navbarUpRight{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+.navbarUp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+.navbarUpRight a{
+    font-weight: bold;
+    cursor: pointer;
+}
