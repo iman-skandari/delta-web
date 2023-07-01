@@ -1,0 +1,35 @@
+.cardInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid #e9e9eb;
+  background: #f3f3f5;
+  min-height: 73px;
+  width: 380px;
+  
+
+}
+.cardInfoB {
+    border: 2px solid #e9e9eb;
+    background: #fff;
+    cursor: pointer;
+    width: 105px;
+    height: 40px;
+}
+.cardInfoB:hover{
+    color: #fff;
+    background-color: red;
+}
+.cardInfoR img{
+    width: 20px;
+    height: 20px;
+    
+
+}
+.cardInfoR{
+    display: flex;
+    flex-direction: column;
+}
+
+ 
