@@ -1,3 +1,6 @@
+.navbarWrapper{
+width: 100%;
+}
 .navbarUpRight img{
     height: 35px;
     width: 65px;
@@ -51,8 +54,19 @@ gap: 1rem;
     justify-content: space-around;
     align-items: center;
     gap: 5rem;
+    height: 75px;
+    border-bottom: 1px solid #e7e7e7;
 }
 .navbarUpRight a{
     font-weight: bold;
     cursor: pointer;
+}
+.navbarDown{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 16px;
+    padding: 1rem 13rem;
+    box-shadow: 0 1px 10px rgba(0,0,0,.10);
+    height: 100%;
 }

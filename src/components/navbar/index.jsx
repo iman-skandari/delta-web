@@ -4,11 +4,11 @@ import arrowimg from "../../assets/images.PNG";
 
 export default ({ img }) => {
   return (
-    <div className="navbarWraoer">
+    <div className="navbarWrapper">
       <div className="navbarUp">
         <div className="navbarUpRight">
           <img src={img} alt="" />
-          <a>بازار املاک</a>
+          <a href="/">بازار املاک</a>
         </div>
         <div className="navbarUpLeft">
           <div className="navbarUpLeft1">
@@ -23,7 +23,12 @@ export default ({ img }) => {
         </div>
       </div>
       <div className="navbarDown">
-
+        <a href="">صفحه اصلی</a>
+        <a href="">جستجو املاک</a>
+        <a href="">جستجو روی نقشه</a>
+        <a href="">ثبت ملک</a>
+        <a href="">تقاضای ملک</a>
+        <a href="">فرصت های شغلی</a>
       </div>
     </div>
   );
