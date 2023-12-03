@@ -2,9 +2,9 @@
   border-radius: 7px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
   border: 1px rgba(0, 0, 0, 0.1) solid;
-  width: 320px;
+  width: 380px;
   min-height: 65px;
-  background-color: aliceblue;
+  background-color: #fff;
   display: flex;
   align-items: center;
   gap: 1rem;

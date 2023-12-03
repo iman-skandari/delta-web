@@ -1,12 +1,13 @@
 import React from "react";
 import "./button.css"
+import { Link } from "react-router-dom";
 
-export default ({title}) => {
+export default ({title , address}) => {
   return (
-    <div>
+    <Link to={address}>
       <button className="btnBox">
         <p>{title} </p>
       </button>
-    </div>
+    </Link>
   );
 };

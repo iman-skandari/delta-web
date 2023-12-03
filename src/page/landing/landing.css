@@ -1,0 +1,109 @@
+.container{
+    margin:  0 4rem;
+}
+.containerBox{
+    padding: 0 10rem;
+    background-color: #edededea;
+}
+.btnBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.btnBgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap   ;
+}
+
+.titleNvbarDown {
+  text-align: center;
+  padding: 1.5rem;
+  background-image: url("../../assets/bgDelta.png");
+}
+.BtnBackground1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+}
+.BtnBackground {
+  width: 600px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+  height: 185px;
+}
+.titleButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.1rem 0;
+}
+.lineBox{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 4rem;
+
+}
+.lineBox h3 {
+    min-width: 150px;
+    text-align: center;
+    transform: translateY(8px);
+    
+}
+.lineR{
+    width: 100%;
+    min-width: 310px;
+    height: 20px;
+    border-bottom:1px solid gray;
+
+}
+.byeHouseBox{
+    width: 100%;
+    background-color: #fff;
+    min-height: 200px;
+}
+
+.byeHouseWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.lineBoxDesc{
+  color: red;
+
+}
+.ant-divider-horizontal.ant-divider-with-text::before , .ant-divider-horizontal.ant-divider-with-text::after {
+  border-block-start-color: #000;
+}
+.byeHome{
+  display: flex;
+  align-items: center;
+  padding: .6rem 0;
+  min-width: 200px;
+}
+.colBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center   ;
+  padding: 1rem;
+}
+.rowWrapper{
+  padding-bottom: 2rem;
+}

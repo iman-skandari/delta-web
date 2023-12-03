@@ -1,5 +1,6 @@
 .navbarWrapper{
 width: 100%;
+background: #fff;
 }
 .navbarUpRight img{
     height: 35px;
@@ -9,8 +10,8 @@ width: 100%;
 }
 .navbarUpLeft1{
     border: 2px solid #e3e3e3;
-    width: 85px;
-    height: 37px;
+    width: 82.5px;
+    height: 30px;
     text-align: center;
     border-radius: 1rem;
     display: flex;
@@ -18,7 +19,6 @@ width: 100%;
     align-items: center;
     cursor: pointer;
     gap: 0.5rem;
-
 }
 .navbarUpLeft1 img{
     width: 10px;
@@ -26,12 +26,12 @@ width: 100%;
 .navbarUpLeft2{
     border: 2px solid #e3e3e3;
     border-radius: 1rem;
-    height: 37px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    width: 370px;
+    width: 330px;
     gap: 16px;
 }
 .navbarUpLeftTitle{
@@ -51,11 +51,12 @@ gap: 1rem;
 }
 .navbarUp{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 5rem;
     height: 75px;
     border-bottom: 1px solid #e7e7e7;
+    padding: 0 4rem;
 }
 .navbarUpRight a{
     font-weight: bold;
@@ -65,8 +66,20 @@ gap: 1rem;
     display: flex;
     justify-content: right;
     align-items: center;
-    gap: 16px;
+    gap: 1.5rem;
     padding: 1rem 13rem;
     box-shadow: 0 1px 10px rgba(0,0,0,.10);
     height: 100%;
+}
+
+.titleBaceNvbar{
+    color: red;
+}
+
+.activeLine{
+    margin-top: .2rem;
+    width: 65px;
+    height: 2px;
+    background-color: red;
+    transition: .2s ease-in-out;
 }

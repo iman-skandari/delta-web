@@ -1,5 +1,6 @@
 import React ,{useState , useEffect} from "react";
 import "./footer.css";
+import { Button} from 'antd';
 import instaimag from "../../assets/insta.JPG";
 import linkdinimg from "../../assets/linkdinimg.png";
 import telimg from "../../assets/telimg.JPG";
@@ -8,26 +9,39 @@ import download from "../../assets/download.PNG";
 import enamad from "../../assets/enamad.PNG";
 import logo from "../../assets/logo.WEBP";
 import axios from "axios";
+import { useLocation } from "react-router-dom";
 
 export default () => {
-  const [changeRealColor, setChangeRealColor] = useState(false)
-  
-  
 
-  function handleLink() {
+  const location = useLocation();
+  console.log({ location });
 
-    setChangeRealColor(!changeRealColor)
-  }
+  const [title, setTitle] = useState()
+  const [showTitle, setShowTitle] = useState(false)
 
+
+
+ const  getHomeData = async() =>  {
+   const response = await axios.get('https://fakestoreapi.com/products')
  
+    const data = response.data
+ 
+    setTitle(data[0]?.category)
+ }
+
+ const  handleSHowTitle = () =>  {
+  setShowTitle(true)
+}
   
 
-
+ getHomeData()
 
   return (
-    <div>
+    <>
       <div className="footerUp">
-        <a onClick={handleLink}> درباره ما</a>
+        {showTitle===true ? <a>"{title}"</a> : <a>خروج</a> }
+        
+        <a onClick={handleSHowTitle}> درباره ما</a>
         <a>تماس با ما</a>
         <a>طراحی وب سایت ملکی</a>
         <a> فرصت های شغلی</a>
@@ -73,7 +87,7 @@ export default () => {
               </div>
             </div>
           </div>
-          {changeRealColor === true ? (
+       
             <div className="footerMidleDown">
               <div>
                 <h3>اپلیکیشن ملکی دلتا (دلتاملک)</h3>
@@ -88,9 +102,7 @@ export default () => {
                 <img src={download} alt="" />
               </div>
             </div>
-          ) : (
-            <div>herrrrrrrrrrrr</div>
-          )}
+      
 
           <div className="footerMidle2">
             <div>
@@ -119,6 +131,6 @@ export default () => {
           </h4>
         </div>
       </div>
-    </div>
+    </>
   );
 };
